@@ -1,6 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+
+//Test
+import HomeBackground from "./components/HomeBG/HomeBG";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,58 +15,45 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        {/* <Navbar />*/}
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          <div className="flex flex-col items-center justify-center">
+            <h1 className="text-white text-center text-6xl font-serif">
+              Nick Siciliano-Salazar
+            </h1>
+            <h2 className="text-white text-center text-3xl font-mono font-semibold">
+              User Experience Engineer
+            </h2>
+            <div className="flex flex-row space-x-4 mt-4">
+              <Link
+                href="/portfolio"
+                className="text-white hover:text-ncc-bakermiller"
+              >
+                Portfolio
+              </Link>
+              <Link
+                href="javascript:void(0)"
+                className="text-white hover:text-ncc-bakermiller"
+              >
+                Resume
+              </Link>
+              <Link
+                href="javascript:void(0)"
+                className="text-white hover:text-ncc-bakermiller"
+              >
+                About
+              </Link>
+            </div>
+          </div>
         </div>
+
+        <HomeBackground />
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
+      {/* <footer className={styles.footer}>
+        <p>Made with ❤️ in NYC</p>
+      </footer> */}
     </div>
-  )
+  );
 }
