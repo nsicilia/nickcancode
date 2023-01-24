@@ -15,7 +15,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-ncc-dark w-full border-b  md:border-0 md:sticky">
+    <nav className=" w-full border-b  md:border-0 md:sticky">
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <Link href="/">
@@ -78,7 +78,7 @@ export default function Navbar() {
               );
             })}
             <li className=" md:hidden">
-              <a
+              {/* <a
                 href="tel:516-655-3484"
                 className="flex py-3 px-4 text-white bg-EN-primary justify-center hover:bg-EN-darkblue rounded-md shadow"
               >
@@ -92,7 +92,7 @@ export default function Navbar() {
                   />{" "}
                   &#40;516&#41; 655&#45;3484
                 </div>
-              </a>
+              </a> */}
             </li>
           </ul>
         </div>

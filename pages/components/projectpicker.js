@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion, useAnimation } from "framer-motion";
 
 const Picker = () => {
-  const [imageUrl, setImageUrl] = useState("/applecomputer.jpg");
+  const [imageUrl, setImageUrl] = useState("/portfolioimage.jpg");
 
   // const [isTransitioning, setIsTransitioning] = useState(false);
 
@@ -43,13 +43,13 @@ const Picker = () => {
       name: "Realtor.com",
       sub: "Guides Hub",
       link: "javascript:void(0)",
-      image: "/rdc/rdclist.jpeg",
+      image: "/rdcguides/guideshublist.jpg",
     },
     {
       name: "Realtor.com",
       sub: "News & Insights Platform",
       link: "javascript:void(0)",
-      image: "/rdc/rdclist.jpeg",
+      image: "/rdcnews/newslist.jpg",
     },
     {
       name: "Crunch",
@@ -61,7 +61,7 @@ const Picker = () => {
       name: "Centers",
       sub: "Health Care Services",
       link: "javascript:void(0)",
-      image: "/centers/centerslist.jpeg",
+      image: "/centers/cntrslist.jpg",
     },
     {
       name: "Woolzies",
@@ -73,12 +73,12 @@ const Picker = () => {
       name: "Chorus",
       sub: "Medical Software",
       link: "javascript:void(0)",
-      image: "/rdc/rdclist.jpeg",
+      image: "/chorus/choruslist.jpg",
     },
   ];
 
   return (
-    <div class="bg-ncc-dark grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div class="bg-transparent grid grid-cols-1 md:grid-cols-2 gap-4">
       <div className="justify-self-center">
         {data.map(function (d, idx) {
           return (
@@ -91,7 +91,7 @@ const Picker = () => {
                   //setImageUrl(d.image);
                 }}
                 onMouseLeave={() => {
-                  handleImageChange("/applecomputer.jpg");
+                  handleImageChange("/portfolioimage.jpg");
                   //setImageUrl("/applecomputer.jpg");
                 }}
               >
