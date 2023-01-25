@@ -10,6 +10,11 @@ const shrikhand = Shrikhand({
 function MyApp({ Component, pageProps }) {
   return (
     <main className={`${shrikhand.variable} font-sans`}>
+      <style jsx global>{`
+        html {
+          font-family: ${shrikhand.style.fontFamily};
+        }
+      `}</style>
       <Component {...pageProps} />
     </main>
   );

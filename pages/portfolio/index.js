@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Head from "next/head";
-import Navbar from "../components/header";
-import Picker from "../components/projectpicker";
-import HomeBackground from "../components/HomeBG/HomeBG";
+import Navbar from "../../components/header";
+import Picker from "../../components/projectpicker";
+import HomeBackground from "../../components/HomeBG/HomeBG";
 
 export default function index() {
   return (

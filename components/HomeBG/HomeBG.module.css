@@ -1,0 +1,34 @@
+/* Element positioning */
+.container {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.svg {
+  width: 100%;
+  height: 100vh;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+.top-outer,
+.top-inner,
+.bottom-outer,
+.bottom-inner {
+  animation: rotate 20s linear infinite;
+}
+.top-outer {
+  transform-origin: 73px 69px;
+}
+.top-inner {
+  transform-origin: 73px 69px;
+}
+.bottom-outer {
+  transform-origin: 134px 222px;
+}
+.bottom-inner {
+  transform-origin: 134px 222px;
+}

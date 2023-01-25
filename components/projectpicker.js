@@ -1,0 +1,129 @@
+import React, { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { motion, useAnimation } from "framer-motion";
+
+const Picker = () => {
+  const [imageUrl, setImageUrl] = useState("/portfolioimage.jpg");
+
+  // const [isTransitioning, setIsTransitioning] = useState(false);
+
+  const imageAnimation = useAnimation();
+
+  const handleImageChange = (url) => {
+    //setIsTransitioning(true);
+    imageAnimation
+      .start({
+        opacity: 0,
+        transition: {
+          duration: 0.3,
+          ease: "easeInOut",
+        },
+      })
+      .then(() => {
+        setImageUrl(url);
+        imageAnimation.start({
+          opacity: 1,
+          transition: {
+            duration: 0.3,
+            ease: "easeInOut",
+          },
+        });
+      });
+  };
+
+  const data = [
+    {
+      name: "Cassetta",
+      sub: "Audio Social Platform",
+      link: "javascript:void(0)",
+      image: "/cassetta/cassettalist.jpeg",
+    },
+    {
+      name: "Realtor.com",
+      sub: "Guides Hub",
+      link: "javascript:void(0)",
+      image: "/rdcguides/guideshublist.jpg",
+    },
+    {
+      name: "Realtor.com",
+      sub: "News & Insights Platform",
+      link: "javascript:void(0)",
+      image: "/rdcnews/newslist.jpg",
+    },
+    {
+      name: "Crunch",
+      sub: "On-Demand Food Ordering",
+      link: "javascript:void(0)",
+      image: "/crunch/crunchlist.jpeg",
+    },
+    {
+      name: "Centers",
+      sub: "Health Care Services",
+      link: "javascript:void(0)",
+      image: "/centers/cntrslist.jpg",
+    },
+    {
+      name: "Woolzies",
+      sub: "Beauty & Cosmetics",
+      link: "javascript:void(0)",
+      image: "/woolzies/woolzieslist.jpeg",
+    },
+    {
+      name: "Chorus",
+      sub: "Medical Software",
+      link: "javascript:void(0)",
+      image: "/chorus/choruslist.jpg",
+    },
+  ];
+
+  return (
+    <div class="bg-transparent grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="justify-self-center">
+        {data.map(function (d, idx) {
+          return (
+            <li key={idx} className="list-none">
+              <Link
+                href={d.link}
+                className=""
+                onMouseEnter={() => {
+                  handleImageChange(d.image);
+                  //setImageUrl(d.image);
+                }}
+                onMouseLeave={() => {
+                  handleImageChange("/portfolioimage.jpg");
+                  //setImageUrl("/applecomputer.jpg");
+                }}
+              >
+                <div className=" w-full my-4 rounded-lg tracking-wide	">
+                  <div class="flex flex-col ...">
+                    <div className="text-white text-4xl font-serif hover:text-ncc-bakermiller">
+                      {d.name}
+                    </div>
+                    <div className="font-mono font-semibold text-slate-400">
+                      {d.sub}
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            </li>
+          );
+        })}
+      </div>
+
+      <motion.div
+        animate={imageAnimation}
+        className="h-[70vh] w-[45vw] relative hidden sticky top-5 z-50 md:inline mt-4"
+      >
+        <Image
+          src={imageUrl}
+          className="object-cover rounded-3xl "
+          alt=""
+          fill
+        />
+      </motion.div>
+    </div>
+  );
+};
+
+export default Picker;
