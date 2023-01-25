@@ -71,11 +71,17 @@ export default function Navbar() {
           <ul className="justify-end items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
             {navigation.map((item, idx) => {
               return (
-                <li key={idx} className="text-white hover:text-EN-darkblue">
+                <li
+                  key={idx}
+                  className="text-white font-mono hover:text-EN-darkblue"
+                >
                   <Link
                     href={item.path}
                     target={item.target}
-                    className={asPath == item.path && "font-bold"}
+                    className={
+                      //asPath == item.path
+                      asPath.includes(item.path) && "font-bold"
+                    }
                   >
                     {item.title}
                   </Link>
