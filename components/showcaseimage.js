@@ -10,7 +10,7 @@ export default function ShowcaseImage({ src, alt }) {
         alt={alt}
         placeholder="blur"
         blurDataURL={"/placeholderloading.svg"}
-        className=" object-cover rounded-lg md:rounded-xl"
+        className="bg-[url('/placeholderloading.svg')] object-cover rounded-lg md:rounded-xl"
         fill
       />
     </div>
