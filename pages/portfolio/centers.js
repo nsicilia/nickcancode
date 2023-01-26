@@ -26,10 +26,10 @@ export default function crunch() {
           </div>
         </div> */}
 
-        {/* Image */}
+        {/* Hero Image */}
         <div className="h-[30vh] md:h-[80vh] w-11/12 md:w-3/4 relative m-auto mb-10 mt-6">
           <Image
-            src="/crunch/CrunchPortfolioDesktop.jpeg"
+            src="/centers/testcenters.jpg"
             alt="Cassetta"
             className=" object-cover rounded-3xl"
             fill
@@ -38,15 +38,15 @@ export default function crunch() {
 
         <ProjectTable
           role={"Lead Developer"}
-          tools={"Html, CSS, Javascript, Php, WordPress CMS"}
-          url={"https://www.crunchsystems.com/"}
-          urlName={"crunchsystems.com"}
+          tools={"Html, CSS, Javascript, Php,Bootstrap, WordPress CMS"}
+          url={"https://www.centerschoice.com/"}
+          urlName={"centerschoice.com"}
           description={
-            "The client came to us for help creating a website that would allow businesses to streamline their restaurant ordering systems and boost their sales. Working closely with the client to meet their needs and expectations, I created a project management tool to layout timelines and set due dates for client deliverables. Following that timeline, I built the entire website from the ground up using the WordPress platform with custom HTML/CSS, PHP, and JavaScript. I used Adobe XD, Photoshop, and Illustrator to edit and optimize photos, icons, call to action buttons, and other design assets as needed. Throughout the development process, I also worked with the marketing and graphic design, and communications departments to deliver a visual website and create a positive user experience for web visitors."
+            "Centers Health Care provides senior care services through a network of Centers Health Care companies in New York, New Jersey, and Rhode Island. As part of ongoing work with Centers, I was responsible for updating and refreshing their website as needed, including adding three new sections: a skilled nursing page, a telemedicine page, and a blog. The skilled nursing and telemedicine pages were designed in photoshop and were built using HTML/CSS and PHP. To create a mobile responsive blog section that both Centers and agency writers can contribute to, I used HTML/CSS, PHP, and Ajax. I also created a search bar, search page, a custom post page that shows other recent posts, and a categories filter dropdown to allow users to navigate the growing number of posts. Lastly, I moved the website from Godaddy to a Digital Ocean server to vastly improve server response time and enhance the user experience."
           }
         />
 
-        <ThreeMobileImage
+        {/* <ThreeMobileImage
           img1={"/crunch/mctest4_iphone12promaxsilver_portrait.png"}
           alt1={"Crunch Systems homepage"}
           desc1={"Homepage"}
@@ -58,18 +58,27 @@ export default function crunch() {
           img3={"/crunch/mcorderpage.png"}
           alt3={"Business page for online ordering"}
           desc3={"B2B service"}
+        /> */}
+
+        {/* First Image */}
+        <ShowcaseImage src={"/centers/centersone.jpg"} alt={"Homepage"} />
+
+        {/* Second Image */}
+        <ShowcaseImage
+          src={"/centers/centerstwo.jpg"}
+          alt={"Skilled Nursing"}
         />
 
-        {/* First Gif */}
-        <ShowcaseImage src={"/crunch/crunchdesktophome.png"} alt={"Homepage"} />
-
-        {/* Second Gif */}
-        <ShowcaseImage src={"/crunch/crunchapppage.png"} alt={"App page"} />
-
-        {/* Third Gif */}
+        {/* Third Image */}
         <ShowcaseImage
-          src={"/crunch/onlineorderpage.jpg"}
-          alt={"Online order page"}
+          src={"/centers/centersthree.jpg"}
+          alt={"Skilled Nursing"}
+        />
+
+        {/* Third Image */}
+        <ShowcaseImage
+          src={"/centers/centersfour.jpg"}
+          alt={"Skilled Nursing"}
         />
       </main>
     </>

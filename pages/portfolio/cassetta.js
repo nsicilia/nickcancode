@@ -4,6 +4,8 @@ import Head from "next/head";
 import Navbar from "../../components/header";
 import ProjectTable from "../../components/projecttable";
 import ShowcaseImage from "../../components/showcaseimage";
+import ThreeMobileImage from "../../components/threemobileimage";
+import TwoMobileImage from "../../components/twomobileimage";
 
 export default function cassetta() {
   return (
@@ -36,8 +38,8 @@ export default function cassetta() {
         </div>
 
         <ProjectTable
-          role={"User Experience Engineer"}
-          tools={"Swift, SwiftUI, Firebase, Adobe XD"}
+          role={"Personal Project"}
+          tools={"Swift, SwiftUI, Firebase, Adobe XD, Illustrator"}
           url={"https://cassetta.fm"}
           urlName={"cassetta.fm"}
           description={
@@ -46,7 +48,39 @@ export default function cassetta() {
           }
         />
 
-        <ShowcaseImage src={"/cassetta/cassettahero.jpg"} alt={"Cassetta"} />
+        <TwoMobileImage
+          img1={"/cassetta/cassettalogin.png"}
+          alt1={"Cassetta login"}
+          desc1={"Login page"}
+          //   Second
+          img2={"/cassetta/cassettasignup.png"}
+          alt2={"Cassetta sign up"}
+          desc2={"Sign Up Page"}
+        />
+
+        <ThreeMobileImage
+          img1={"/cassetta/cassettahome.png"}
+          alt1={"Cassetta home page"}
+          desc1={"Homepage"}
+          //   Second
+          img2={"/cassetta/cassettarecord.png"}
+          alt2={"Cassetta search page"}
+          desc2={"Record Audio page"}
+          //   Third
+          img3={"/cassetta/cassettaupload.png"}
+          alt3={"Profile page"}
+          desc3={"Upload page"}
+        />
+
+        <TwoMobileImage
+          img1={"/cassetta/cassettaplayer.png"}
+          alt1={"Cassetta Audio player"}
+          desc1={"Player"}
+          //   Second
+          img2={"/cassetta/cassettacomments.png"}
+          alt2={"Cassetta comments"}
+          desc2={"Comments"}
+        />
 
         <ShowcaseImage src={"/cassetta/cassettawebsite.jpg"} alt={"Cassetta"} />
       </main>
