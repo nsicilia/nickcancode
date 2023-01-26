@@ -38,7 +38,7 @@ export default function guideshub() {
 
         <ProjectTable
           role={"User Experience Engineer"}
-          tools={"Swift, SwiftUI, Firebase, Adobe XD"}
+          tools={"Html, CSS, Javascript, JQuery, Php, WordPress CMS"}
           url={"https://www.realtor.com/guides/"}
           urlName={"realtor.com/guides"}
           description={

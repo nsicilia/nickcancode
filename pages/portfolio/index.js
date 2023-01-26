@@ -23,7 +23,7 @@ export default function index() {
     {
       name: "Realtor.com",
       sub: "News & Insights Platform",
-      link: "javascript:void(0)",
+      link: "/portfolio/newsandinsights",
       image: "/rdcnews/newslist.jpg",
     },
     {
@@ -35,7 +35,7 @@ export default function index() {
     {
       name: "Centers",
       sub: "Health Care Services",
-      link: "javascript:void(0)",
+      link: "/portfolio/centers",
       image: "/centers/cntrslist.jpg",
     },
     {

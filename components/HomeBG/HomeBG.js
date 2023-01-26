@@ -16,11 +16,6 @@ const HomeBackground = () => {
           height: 100vh;
         }
 
-        @keyframes rotate {
-          100% {
-            transform: rotateZ(360deg);
-          }
-        }
         .top-outer,
         .top-inner,
         .bottom-outer,
@@ -42,6 +37,16 @@ const HomeBackground = () => {
 
         .bottom-inner {
           transform-origin: 134px 222px;
+        }
+
+        @keyframes rotate {
+          0% {
+            transform: rotateZ(0deg);
+          }
+
+          100% {
+            transform: rotateZ(360deg);
+          }
         }
       `}</style>
 

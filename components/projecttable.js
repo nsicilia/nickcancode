@@ -26,7 +26,7 @@ export default function ProjectTable({
             <div className="text-white font-mono">{tools}</div>
           </div>
         </div>
-        <div class="flex">
+        <div class="flex pt-4">
           <div class="flex-none w-28 h-14">
             <h2 className="text-white text-xl font-mono font-bold">URL</h2>
           </div>

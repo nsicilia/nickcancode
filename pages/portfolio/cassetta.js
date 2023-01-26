@@ -43,8 +43,7 @@ export default function cassetta() {
           url={"https://cassetta.fm"}
           urlName={"cassetta.fm"}
           description={
-            "Now more than ever, people are looking for new ways to share their stories and connect with others around the world. But creating a podcast is not as easy as making a Tik Tok or uploading a video on Youtube. There are many barriers including equipment costs, editing, production, and creating a community. Sharing stories shouldn’t be hard and it shouldn’t take thousands of dollars worth of equipment in a world where smartphones exist." +
-            "Cassetta is an iPhone app that will bring down these barriers by doing two things:"
+            "Now more than ever, people are looking for new ways to share their stories and connect with others around the world. But creating a podcast is not as easy as making a Tik Tok or uploading a video on Youtube. There are many barriers including equipment costs, editing, production, and creating a community. Sharing stories shouldn’t be hard and it shouldn’t take thousands of dollars worth of equipment in a world where smartphones exist. Cassetta is an iPhone app that will bring down these barriers by doing two things. First, give users an easy and straightforward tool for recording, editing, and attaching relevant images to the stories they want to tell, and Second, make the process of sharing what they have recorded, and engaging with the community they build significantly easier. The long-term vision for Cassetta is to be the de-facto platform for people to tell stories and build digital communities around podcasts."
           }
         />
 
