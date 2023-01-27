@@ -6,15 +6,16 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import HomeBackground from "../components/HomeBG/HomeBG";
 import Link from "next/link";
 
-import Placeholder from "../public/placeholder.svg";
-
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title>nickcancode</title>
         <meta name="description" content="Personal Portfolio Website" />
-        <meta name="image" content="/placeholder.svg" />
+        <meta
+          name="image"
+          content="https://www.nickcancode.com/placeholder.svg"
+        />
         <link rel="icon" href="/nickcancodeicon.svg" />
       </Head>
 
