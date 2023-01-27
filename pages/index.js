@@ -14,6 +14,7 @@ export default function Home() {
         <meta name="description" content="Personal Portfolio Website" />
         <meta
           name="image"
+          property="og:image"
           content="https://www.nickcancode.com/placeholder.svg"
         />
         <link rel="icon" href="/nickcancodeicon.svg" />
