@@ -15,7 +15,7 @@ export default function Home() {
         <title>nickcancode</title>
         <meta name="description" content="Personal Portfolio Website" />
         <meta name="image" content="/placeholder.svg" />
-        <link rel="icon" href={Placeholder} />
+        <link rel="icon" href="/nickcancodeicon.svg" />
       </Head>
 
       <main className={styles.main}>
