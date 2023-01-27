@@ -15,14 +15,14 @@ export default function index() {
       image: "/cassetta/cassettalist.jpeg",
     },
     {
-      name: "Realtor.com",
-      sub: "Guides Hub",
+      name: "Guides Hub",
+      sub: "Hub for first-time home buyers",
       link: "/portfolio/guideshub",
       image: "/rdcguides/guideshublist.jpg",
     },
     {
-      name: "Realtor.com",
-      sub: "News & Insights Platform",
+      name: "News & Insights",
+      sub: "Realtor.com's News Platform",
       link: "/portfolio/newsandinsights",
       image: "/rdcnews/newslist.jpg",
     },
@@ -41,13 +41,13 @@ export default function index() {
     {
       name: "Woolzies",
       sub: "Beauty & Cosmetics",
-      link: "javascript:void(0)",
+      link: "/portfolio/woolzies",
       image: "/woolzies/woolzieslist.jpeg",
     },
     {
       name: "Chorus",
       sub: "Medical Software",
-      link: "javascript:void(0)",
+      link: "/portfolio/chorus",
       image: "/chorus/choruslist.jpg",
     },
   ];

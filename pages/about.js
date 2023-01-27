@@ -51,7 +51,7 @@ export default function about() {
                 </a>
               </div>
             </div>
-            <div>
+            <div className="hidden md:inline">
               <img
                 className="object-contain bg-gray-800 bg-opacity-25 w-full h-56 rounded-3xl shadow-lg sm:h-96"
                 src="/me_grey.png"

@@ -65,13 +65,13 @@ export default function guideshub() {
 
         {/* Second Gif */}
         <ShowcaseImage
-          src={"/rdcguides/guidessingleguide.gif"}
+          src={"/rdcguides/rdcguidestatic2.jpg"}
           alt={"Single Guide"}
         />
 
         {/* Third Gif */}
         <ShowcaseImage
-          src={"/rdcguides/guidearticle.gif"}
+          src={"/rdcguides/rdcguidestatic3.jpg"}
           alt={"Single Article"}
         />
       </main>

@@ -15,10 +15,10 @@ const ImageTabs = ({ src1, alt1, src2, alt2 }) => {
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
-                  "text-xs font-bold uppercase px-5 py-3 rounded block leading-normal " +
+                  "text-xs font-bold uppercase px-5 py-3 rounded-xl block leading-normal " +
                   (openTab === 1
-                    ? "text-white bg-ncc-plum"
-                    : "text-white bg-transparent")
+                    ? "text-white bg-ncc-dark-pink border-2 border-ncc-dark-pink"
+                    : "text-white bg-transparent border-2 border-ncc-plum hover:border-ncc-bakermiller")
                 }
                 onClick={(e) => {
                   e.preventDefault();
@@ -34,10 +34,10 @@ const ImageTabs = ({ src1, alt1, src2, alt2 }) => {
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
-                  "text-xs font-bold uppercase px-5 py-3 rounded block leading-normal " +
+                  "text-xs font-bold uppercase px-5 py-3 rounded-xl block leading-normal " +
                   (openTab === 2
-                    ? "text-white bg-ncc-plum"
-                    : "text-white bg-transparent")
+                    ? "text-white bg-ncc-dark-pink border-2 border-ncc-dark-pink"
+                    : "text-white bg-transparent border-2 border-ncc-plum hover:border-ncc-bakermiller")
                 }
                 onClick={(e) => {
                   e.preventDefault();
