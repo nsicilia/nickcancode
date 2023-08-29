@@ -15,21 +15,21 @@ export default function about() {
                 Hi, I&apos;m Nick
               </h5>
               <p className="mb-6 text-white font-medium">
-                I’m UX Engineer at Realtor.com. In my role I use UX and UI best
-                practices to create appealing designs that meet the companies
-                needs and create a valuable user experience on Realtor.com’s
-                News and Insights platform that generates over 8 million monthly
-                visitors. I have an M.A. in Human-Computer Interaction (HCI) and
-                a B.S. in Cognitive Science from the State University of New
-                York (SUNY) at Oswego. As a SUNY Oswego student, I played
-                Division I rugby for five years and won three state
-                championships with my team. I was also the graduate assistant
-                for First Year programs and the assistant director of finance
-                for the Student Association, holding both positions for two
-                years. I was born and raised in New York (the greatest city in
-                the world!) and am an avid Knicks fan. In my free time when I am
-                not designing or playing rugby, I like working on my photography
-                and learning new languages.
+                I’m UX Engineer at Deutsche Bank AG. I manage and support a
+                diverse team of product and full stack engineers to build and
+                ship products that are integral to the bank’s internal and
+                external data systems. I play a key role in developing strategy
+                and working with cross functional teams to drive implementation.
+                I have an M.A. in Human-Computer Interaction (HCI) and a B.S. in
+                Cognitive Science from the State University of New York at
+                Oswego. As a SUNY Oswego student, I played Division I rugby for
+                five years and won three state championships with my team. I was
+                also the graduate assistant for First Year programs and the
+                assistant director of finance for the Student Association,
+                holding both positions for two years. I was born and raised in
+                New York (the greatest city in the world!) and am an avid Knicks
+                fan. In my free time when I am not designing or playing rugby, I
+                like working on my photography and learning new languages.
               </p>
 
               <div className="flex items-center space-x-4">

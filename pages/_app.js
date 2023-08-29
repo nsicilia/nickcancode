@@ -11,8 +11,13 @@ function MyApp({ Component, pageProps }) {
   return (
     <main className={`${shrikhand.variable} font-sans`}>
       <style jsx global>{`
-        html {
-          font-family: ${shrikhand.style.fontFamily};
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          font-family: "Shrikhand", cursive;
         }
       `}</style>
       <Component {...pageProps} />
