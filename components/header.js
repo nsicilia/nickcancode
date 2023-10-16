@@ -13,7 +13,7 @@ export default function Navbar() {
     {
       title: "Resume",
       target: "_blank",
-      path: "https://drive.google.com/file/d/1DwOadLCVewGCcUUPo5rgEkdIS11y4OKw/view?usp=sharing",
+      path: "https://drive.google.com/file/d/1nwcHY1WyIcEXk1XkIxfi0OTtFwrtcc-r/view?usp=sharing",
     },
     { title: "About", target: "_self", path: "/about" },
   ];
