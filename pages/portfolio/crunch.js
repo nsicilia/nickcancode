@@ -14,7 +14,7 @@ export default function crunch() {
         <meta name="description" content="Nick Siciliano Salazar's Portfolio" />
         <link rel="icon" href="/nickcancodeicon.svg" />
       </Head>
-      <main className="bg-ncc-dark pb-10">
+      <main className="bg-pl_background pb-10">
         <Navbar />
 
         {/* Hero image */}
@@ -37,12 +37,12 @@ export default function crunch() {
         </div>
 
         <ProjectTable
-          role={"Lead Developer"}
+          role={"FinTech"}
           tools={"Html, CSS, Javascript, Php, WordPress CMS"}
           url={"https://www.crunchsystems.com/"}
           urlName={"crunchsystems.com"}
           description={
-            "The client came to us for help creating a website that would allow businesses to streamline their restaurant ordering systems and boost their sales. Working closely with the client to meet their needs and expectations, I created a project management tool to layout timelines and set due dates for client deliverables. Following that timeline, I built the entire website from the ground up using the WordPress platform with custom HTML/CSS, PHP, and JavaScript. I used Adobe XD, Photoshop, and Illustrator to edit and optimize photos, icons, call to action buttons, and other design assets as needed. Throughout the development process, I also worked with the marketing and graphic design, and communications departments to deliver a visual website and create a positive user experience for web visitors."
+            "The client came to us for help creating a website that would allow businesses to streamline their restaurant ordering systems and boost their sales. Working closely with the client to meet their needs and expectations, We created a project management tool to layout timelines and set due dates for client deliverables. Following that timeline, We built the entire website from the ground up using the WordPress platform with custom HTML/CSS, PHP, and JavaScript. We used Adobe XD, Photoshop, and Illustrator to edit and optimize photos, icons, call to action buttons, and other design assets as needed. "
           }
         />
 

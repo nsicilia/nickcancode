@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion, useAnimation } from "framer-motion";
 
 const Picker = ({ data }) => {
-  const [imageUrl, setImageUrl] = useState("/portfolioimage.jpg");
+  const [imageUrl, setImageUrl] = useState("/electronics.jpg");
 
   // const [isTransitioning, setIsTransitioning] = useState(false);
 
@@ -46,16 +46,16 @@ const Picker = ({ data }) => {
                   //setImageUrl(d.image);
                 }}
                 onMouseLeave={() => {
-                  handleImageChange("/portfolioimage.jpg");
+                  handleImageChange("/electronics.jpg");
                   //setImageUrl("/applecomputer.jpg");
                 }}
               >
                 <div className=" w-full my-4 rounded-lg tracking-wide	">
                   <div class="flex flex-col ...">
-                    <div className="text-white text-4xl font-serif hover:text-ncc-bakermiller">
+                    <div className="text-white text-4xl font-semibold hover:text-ncc-bakermiller">
                       {d.name}
                     </div>
-                    <div className="font-mono font-semibold text-slate-400">
+                    <div className="font-mono font-semibold text-gray-700">
                       {d.sub}
                     </div>
                   </div>

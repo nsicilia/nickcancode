@@ -10,11 +10,11 @@ export default function Navbar() {
   // Replace javascript:void(0) path with your path
   const navigation = [
     { title: "Portfolio", target: "_self", path: "/portfolio" },
-    {
-      title: "Resume",
-      target: "_blank",
-      path: "https://drive.google.com/file/d/1nwcHY1WyIcEXk1XkIxfi0OTtFwrtcc-r/view?usp=sharing",
-    },
+    // {
+    //   title: "Resume",
+    //   target: "_blank",
+    //   path: "https://drive.google.com/file/d/1nwcHY1WyIcEXk1XkIxfi0OTtFwrtcc-r/view?usp=sharing",
+    // },
     { title: "About", target: "_self", path: "/about" },
   ];
 
@@ -23,7 +23,13 @@ export default function Navbar() {
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <Link href="/">
-            <h1 className="text-white text-3xl font-serif">NSS</h1>
+            {/* <h1 className="text-white text-3xl font-serif">NSS</h1> */}
+            <Image
+              src="/PL_FullLogo.svg"
+              alt="Purple Lantern Logo"
+              width={200}
+              height={50}
+            />
           </Link>
           <div className="md:hidden">
             <button

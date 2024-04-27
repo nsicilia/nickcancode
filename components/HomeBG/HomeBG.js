@@ -55,18 +55,18 @@ const HomeBackground = () => {
         preserveAspectRatio="xMidYMin slice"
         viewBox="24 105 156 95"
       >
-        <rect x="0" y="0" width="300" height="300" fill="#2F4858" />
+        <rect x="0" y="0" width="300" height="300" fill="#DCD4B2" />
         <path
           className="top-outer"
-          fill="#465A79"
-          stroke="#465A79"
+          fill="#7d6b91"
+          stroke="#7d6b91"
           strokeWidth="1"
           d="M68 1c23,0 67,17 69,39 4,38 5,52 -5,69 -20,36 -68,46 -120,-9 -27,-28 -7,-101 56,-99z"
         />
         <path
           className="top-inner"
-          fill="#6C6A96"
-          stroke="#6C6A96"
+          fill="#62B2D3"
+          stroke="##62B2D3"
           strokeWidth="1"
           d="M69 22c33,-7 52,21 54,37 3,26 -1,28 -8,40 -15,25 -48,25 -85,-14 -19,-20 -4,-53 39,-63z"
         />
@@ -79,8 +79,8 @@ const HomeBackground = () => {
         />
         <path
           className="bottom-inner"
-          fill="#CF83B3"
-          stroke="#CF83B3"
+          fill="#CC9FC9"
+          stroke="#CC9FC9"
           strokeWidth="1"
           d="M136 180c32,-9 45,13 46,29 3,27 8,29 0,42 -14,25 -52,24 -79,0 -21,-18 -2,-61 33,-71z"
         />

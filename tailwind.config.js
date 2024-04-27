@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        serif: ["var(--font-shrikhand)", ...fontFamily.serif],
+        serif: ["var(--font-mavin-pro)", ...fontFamily.serif],
       },
       colors: {
         "ncc-dark": "#2F4858",
@@ -17,6 +17,8 @@ module.exports = {
         "ncc-levender": "#6C6A96",
         "ncc-dark-pink": "#CF83B3",
         "ncc-bakermiller": "#FF91AF",
+        pl_offwhite: "#DCD4B2",
+        pl_background: "#7D6B91",
       },
     },
   },

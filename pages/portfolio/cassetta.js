@@ -11,11 +11,11 @@ export default function cassetta() {
   return (
     <>
       <Head>
-        <title>nickcancode</title>
+        <title>Purple Lantern</title>
         <meta name="description" content="Nick Siciliano Salazar's Portfolio" />
         <link rel="icon" href="/nickcancodeicon.svg" />
       </Head>
-      <main className="bg-ncc-dark pb-10">
+      <main className="bg-pl_background pb-10">
         <Navbar />
 
         {/* Hero image */}
@@ -38,7 +38,7 @@ export default function cassetta() {
         </div>
 
         <ProjectTable
-          role={"Personal Project"}
+          role={"Startup"}
           tools={"Swift, SwiftUI, Firebase, Adobe XD, Illustrator"}
           url={"https://cassetta.fm"}
           urlName={"cassetta.fm"}
