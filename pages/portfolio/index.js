@@ -9,16 +9,16 @@ import guideshub from "./guideshub";
 export default function index() {
   const data = [
     {
+      name: "Cassetta",
+      sub: "Audio Social Platform",
+      link: "/portfolio/cassetta",
+      image: "/cassetta/cassettalist.jpeg",
+    },
+    {
       name: "Guides Hub",
       sub: "Hub for first-time home buyers",
       link: "/portfolio/guideshub",
       image: "/rdcguides/guideshublist.jpg",
-    },
-    {
-      name: "Crunch",
-      sub: "On-Demand Food Ordering",
-      link: "/portfolio/crunch",
-      image: "/crunch/crunchlist.jpeg",
     },
     {
       name: "News & Insights",
@@ -26,7 +26,12 @@ export default function index() {
       link: "/portfolio/newsandinsights",
       image: "/rdcnews/newslist.jpg",
     },
-
+    {
+      name: "Crunch",
+      sub: "On-Demand Food Ordering",
+      link: "/portfolio/crunch",
+      image: "/crunch/crunchlist.jpeg",
+    },
     {
       name: "Centers",
       sub: "Health Care Services",
@@ -40,12 +45,6 @@ export default function index() {
       image: "/woolzies/woolzieslist.jpeg",
     },
     {
-      name: "Cassetta",
-      sub: "Audio Social Platform",
-      link: "/portfolio/cassetta",
-      image: "/cassetta/cassettalist.jpeg",
-    },
-    {
       name: "Chorus",
       sub: "Medical Software",
       link: "/portfolio/chorus",
@@ -56,9 +55,9 @@ export default function index() {
   return (
     <>
       <Head>
-        <title>Purple Lantern</title>
+        <title>nickcancode</title>
         <meta name="description" content="Portfolio page" />
-        <link rel="icon" href="/pl_logo.svg" />
+        <link rel="icon" href="/nickcancodeicon.svg" />
       </Head>
       <main className=" h-screen w-screen bg-transparent">
         <div className="absolute bg-transparent w-screen">

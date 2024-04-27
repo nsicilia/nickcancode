@@ -12,7 +12,7 @@ export default function ProjectTable({
       <div className="col-span-2 md:col-span-1">
         <div class="flex">
           <div class="flex-none w-28 h-14">
-            <h2 className="text-white text-xl font-mono font-bold">What</h2>
+            <h2 className="text-white text-xl font-mono font-bold">Role</h2>
           </div>
           <div class="flex-initial w-64 ...">
             <div className="text-white font-mono">{role}</div>

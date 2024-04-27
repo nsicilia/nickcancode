@@ -1,15 +1,15 @@
 import "../styles/globals.css";
-import { Maven_Pro } from "@next/font/google";
+import { Shrikhand } from "@next/font/google";
 
-const mavenpro = Maven_Pro({
+const shrikhand = Shrikhand({
   weight: "400",
   subsets: ["latin"],
-  variable: "--font-maven-pro",
+  variable: "--font-shrikhand",
 });
 
 function MyApp({ Component, pageProps }) {
   return (
-    <main className={`${mavenpro.variable} font-sans`}>
+    <main className={`${shrikhand.variable} font-sans`}>
       <style jsx global>{`
         h1,
         h2,
@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
         h4,
         h5,
         h6 {
-          font-family: "Maven Pro", cursive;
+          font-family: "Shrikhand", cursive;
         }
       `}</style>
       <Component {...pageProps} />

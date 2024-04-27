@@ -14,7 +14,7 @@ export default function guideshub() {
         <meta name="description" content="Nick Siciliano Salazar's Portfolio" />
         <link rel="icon" href="/nickcancodeicon.svg" />
       </Head>
-      <main className="bg-pl_background pb-10">
+      <main className="bg-ncc-dark pb-10">
         <Navbar />
 
         {/* Hero image */}
@@ -37,12 +37,12 @@ export default function guideshub() {
         </div>
 
         <ProjectTable
-          role={"Healthcare software"}
+          role={"Lead Developer"}
           tools={"Html, CSS, Javascript, Php, WordPress CMS"}
           url={"https://www.chorus.cloud/"}
           urlName={"www.chorus.cloud"}
           description={
-            "Chorus is a user-friendly healthcare management software. Chorus brings billions of dollars in infrastructure and tech to the healthcare sector, building on Microsoft technologies including Azure, Dynamics 365, Microsoft Flow, and PowerBI. In preparation for our client to be one of Microsoft’s “Cloud for Healthcare” partners, We took their existing website and fixed a number of critical issues. We migrated the website from Godaddy to a Digital Ocean server to vastly improve server response time, fixed-mobile responsive issues to make elements fit in a mobile view, and fixed a number of cross-browser issues to make the user experience consistent across Chrome, Safari, and Firefox. We further optimize the website’s assets and added a customized sticky video component on the AutismCare page, optimized the dynamic phone mockups, and made the image component switch correctly to highlight each section the user has scrolled to."
+            "Chorus is a user-friendly healthcare management software. Chorus brings billions of dollars in infrastructure and tech to the healthcare sector, building on Microsoft technologies including Azure, Dynamics 365, Microsoft Flow, and PowerBI. In preparation for our client to be one of Microsoft’s “Cloud for Healthcare” partners, I took their existing website and fixed a number of critical issues. I migrated the website from Godaddy to a Digital Ocean server to vastly improve server response time, fixed-mobile responsive issues to make elements fit in a mobile view, and fixed a number of cross-browser issues to make the user experience consistent across Chrome, Safari, and Firefox. I further optimize the website’s assets and added a customized sticky video component on the AutismCare page, optimized the dynamic phone mockups, and made the image component switch correctly to highlight each section the user has scrolled to."
           }
         />
 

@@ -14,7 +14,7 @@ export default function guideshub() {
         <meta name="description" content="Nick Siciliano Salazar's Portfolio" />
         <link rel="icon" href="/nickcancodeicon.svg" />
       </Head>
-      <main className="bg-pl_background pb-10">
+      <main className="bg-ncc-dark pb-10">
         <Navbar />
 
         {/* Hero image */}
@@ -37,12 +37,12 @@ export default function guideshub() {
         </div>
 
         <ProjectTable
-          role={"Ecommerce"}
+          role={"Lead Developer"}
           tools={"Html, CSS, Shopify"}
           url={"https://woolzies.com/"}
           urlName={"woolzies.com"}
           description={
-            "Woolzies is a family-owned business in Hudson Valley, NY that sells all-natural wellness and household products. We was responsible for keeping their website up to date with their monthly product rollouts and marketing campaigns, which included updating their Shopify site, homepage, landing page, and navigation as needed. We also maintained and updated their website’s call to action buttons, hero image assets, and navigations menu layouts."
+            "Woolzies is a family-owned business in Hudson Valley, NY that sells all-natural wellness and household products. I was responsible for keeping their website up to date with their monthly product rollouts and marketing campaigns, which included updating their Shopify site, homepage, landing page, and navigation as needed. I also maintained and updated their website’s call to action buttons, hero image assets, and navigations menu layouts."
           }
         />
 

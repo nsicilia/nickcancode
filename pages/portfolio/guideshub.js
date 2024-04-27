@@ -14,7 +14,7 @@ export default function guideshub() {
         <meta name="description" content="Nick Siciliano Salazar's Portfolio" />
         <link rel="icon" href="/nickcancodeicon.svg" />
       </Head>
-      <main className="bg-pl_background pb-10">
+      <main className="bg-ncc-dark pb-10">
         <Navbar />
 
         {/* Hero image */}
@@ -37,12 +37,12 @@ export default function guideshub() {
         </div>
 
         <ProjectTable
-          role={"Home Buyers Guide"}
+          role={"User Experience Engineer"}
           tools={"Html, CSS, Javascript, JQuery, Php, WordPress CMS"}
           url={"https://www.realtor.com/guides/"}
           urlName={"realtor.com/guides"}
           description={
-            "The goal of this project was to create a hub for all the resources a first time home buyer might need at every point in their journey. From looking for a mortgage, to buying, to eventually renovating their first house. It was important that the guides be easy to navigate and easy to read. We designed the Realtor.com/guides to fall into three distinct sections, the hub, the guide, and the articles. The hub holds all the guides, and can be filtered by a number of categories including sell, rent, buy, and home improvement . The guides are the specific topics like “how to find a mortgage” that hold all of the articles on the subject. The articles are a step-by-step process that teaches the reader about the subject matter. Each article has a “previous” and “next” at the bottom so users can easy navigate between articles in the process. Every page also has a dedicated back button that we found alleviated confusion and helped people easily return to the parent directory. We used Adobe XD to create mobile, tablet, and desktop mocks and illustrator to create icons and assets. We built the pages with HTMLS/CSS, PHP, and Vanilla JS."
+            "The goal of this project was to create a hub for all the resources a first time home buyer might need at every point in their journey. From looking for a mortgage, to buying, to eventually renovating their first house. It was important that the guides be easy to navigate and easy to read. I designed the Realtor.com/guides to fall into three distinct sections, the hub, the guide, and the articles. The hub holds all the guides, and can be filtered by a number of categories including sell, rent, buy, and home improvement . The guides are the specific topics like “how to find a mortgage” that hold all of the articles on the subject. The articles are a step-by-step process that teaches the reader about the subject matter. Each article has a “previous” and “next” at the bottom so users can easy navigate between articles in the process. Every page also has a dedicated back button that we found alleviated confusion and helped people easily return to the parent directory. I used Adobe XD to create mobile, tablet, and desktop mocks and illustrator to create icons and assets. I built the pages with HTMLS/CSS, PHP, and Vanilla JS."
           }
         />
 

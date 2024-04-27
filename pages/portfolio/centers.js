@@ -14,7 +14,7 @@ export default function crunch() {
         <meta name="description" content="Nick Siciliano Salazar's Portfolio" />
         <link rel="icon" href="/nickcancodeicon.svg" />
       </Head>
-      <main className="bg-pl_background pb-10">
+      <main className="bg-ncc-dark pb-10">
         <Navbar />
 
         {/* Hero image */}
@@ -37,12 +37,12 @@ export default function crunch() {
         </div>
 
         <ProjectTable
-          role={"Health Care"}
+          role={"Lead Developer"}
           tools={"Html, CSS, Javascript, Php,Bootstrap, WordPress CMS"}
           url={"https://www.centerschoice.com/"}
           urlName={"centerschoice.com"}
           description={
-            "Centers Health Care provides senior care services through a network of Centers Health Care companies in New York, New Jersey, and Rhode Island. As part of ongoing work with Centers, We was responsible for updating and refreshing their website as needed, including adding three new sections: a skilled nursing page, a telemedicine page, and a blog. The skilled nursing and telemedicine pages were designed in photoshop and were built using HTML/CSS and PHP. To create a mobile responsive blog section that both Centers and agency writers can contribute to, We used HTML/CSS, PHP, and Ajax. We also created a search bar, search page, a custom post page that shows other recent posts, and a categories filter dropdown to allow users to navigate the growing number of posts. Lastly, We moved the website from Godaddy to a Digital Ocean server to vastly improve server response time and enhance the user experience."
+            "Centers Health Care provides senior care services through a network of Centers Health Care companies in New York, New Jersey, and Rhode Island. As part of ongoing work with Centers, I was responsible for updating and refreshing their website as needed, including adding three new sections: a skilled nursing page, a telemedicine page, and a blog. The skilled nursing and telemedicine pages were designed in photoshop and were built using HTML/CSS and PHP. To create a mobile responsive blog section that both Centers and agency writers can contribute to, I used HTML/CSS, PHP, and Ajax. I also created a search bar, search page, a custom post page that shows other recent posts, and a categories filter dropdown to allow users to navigate the growing number of posts. Lastly, I moved the website from Godaddy to a Digital Ocean server to vastly improve server response time and enhance the user experience."
           }
         />
 
