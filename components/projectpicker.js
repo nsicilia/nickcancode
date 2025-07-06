@@ -34,7 +34,7 @@ const Picker = ({ data }) => {
 
   return (
     <div class="bg-transparent grid grid-cols-1 md:grid-cols-2 gap-4">
-      <div className="justify-self-center">
+      <div className="justify-self-center overflow-y-scroll h-[90vh] md:h-[80vh] sticky top-5 z-50">
         {data.map(function (d, idx) {
           return (
             <li key={idx} className="list-none">
@@ -52,7 +52,7 @@ const Picker = ({ data }) => {
               >
                 <div className=" w-full my-4 rounded-lg tracking-wide	">
                   <div class="flex flex-col ...">
-                    <div className="text-white text-4xl font-serif hover:text-ncc-bakermiller">
+                    <div className="text-white text-3xl font-serif hover:text-ncc-bakermiller">
                       {d.name}
                     </div>
                     <div className="font-mono font-semibold text-slate-400">
