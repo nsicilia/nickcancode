@@ -9,6 +9,12 @@ import guideshub from "./guideshub";
 export default function index() {
   const data = [
     {
+      name: "Freemodel",
+      sub: "Full-service home renovations",
+      link: "/portfolio/freemodel",
+      image: "/freemodel/nccfree.jpg",
+    },
+    {
       name: "Cassetta",
       sub: "Audio Social Platform",
       link: "/portfolio/cassetta",
@@ -52,6 +58,22 @@ export default function index() {
     },
   ];
 
+  // return (
+  //   <>
+  //     <Head>
+  //       <title>nickcancode</title>
+  //       <meta name="description" content="Portfolio page" />
+  //       <link rel="icon" href="/nickcancodeicon.svg" />
+  //     </Head>
+  //     <main className=" h-screen w-screen bg-transparent">
+  //       <div className="absolute bg-transparent w-screen">
+  //         <Navbar />
+  //         <Picker data={data} />
+  //       </div>
+  //       <HomeBackground />
+  //     </main>
+  //   </>
+  // );
   return (
     <>
       <Head>
@@ -59,11 +81,18 @@ export default function index() {
         <meta name="description" content="Portfolio page" />
         <link rel="icon" href="/nickcancodeicon.svg" />
       </Head>
-      <main className=" h-screen w-screen bg-transparent">
-        <div className="absolute bg-transparent w-screen">
-          <Navbar />
+      <main className="relative h-screen w-screen bg-transparent overflow-hidden">
+        {/* Picker stays fixed */}
+        <div className="absolute top-0 left-0 w-full z-10 pt-36">
           <Picker data={data} />
         </div>
+
+        {/* Navbar scrolls independently */}
+        <div className="absolute top-20 left-0 w-full h-[calc(100vh-5rem)] overflow-y-auto bg-transparent">
+          <Navbar />
+        </div>
+
+        {/* Background stays behind everything */}
         <HomeBackground />
       </main>
     </>
