@@ -15,8 +15,8 @@ export default function about() {
                 Hi, I&apos;m Nick
               </h5>
               <p className="mb-6 text-white font-medium">
-                I’m UX Engineer at Deutsche Bank AG. I manage and support a
-                diverse team of product and full stack engineers to build and
+                I’m a Senior Engineer at Deutsche Bank AG. I manage and support
+                a diverse team of product and full stack engineers to build and
                 ship products that are integral to the bank’s internal and
                 external data systems. I play a key role in developing strategy
                 and working with cross functional teams to drive implementation.

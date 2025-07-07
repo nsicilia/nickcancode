@@ -6,7 +6,7 @@ import ProjectTable from "../../components/projecttable";
 import ShowcaseImage from "../../components/showcaseimage";
 import ThreeMobileImage from "../../components/threemobileimage";
 
-export default function crunch() {
+export default function freemodel() {
   return (
     <>
       <Head>

@@ -9,6 +9,12 @@ import guideshub from "./guideshub";
 export default function index() {
   const data = [
     {
+      name: "Golden Delicious",
+      sub: "35mm Film Emulation App",
+      link: "/portfolio/goldendelicious",
+      image: "/gd/nccGD.jpg",
+    },
+    {
       name: "Freemodel",
       sub: "Full-service home renovations",
       link: "/portfolio/freemodel",
