@@ -15,6 +15,12 @@ export default function index() {
       image: "/gd/nccGD.jpg",
     },
     {
+      name: "Rename Anything-inator",
+      sub: "Chrome extension for page text and tab titles",
+      link: "/chromeplugin",
+      image: "/chromeplugin/before-after.png",
+    },
+    {
       name: "Freemodel",
       sub: "Full-service home renovations",
       link: "/portfolio/freemodel",
